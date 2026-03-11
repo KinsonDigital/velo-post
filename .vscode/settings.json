@@ -1,0 +1,20 @@
+{
+    "deno.enablePaths": ["tools/"],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "cSpell.words": [
+        "CICD",
+        "Flurl",
+        "Geralt",
+        "Kinson",
+        "PKCE",
+        "xunit"
+    ]
+}
