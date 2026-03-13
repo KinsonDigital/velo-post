@@ -9,8 +9,8 @@
  *   - Your app must have the "tweet.read" and "tweet.write" scopes enabled.
  */
 
-const CLIENT_ID = Deno.args[0];
-const CLIENT_SECRET = Deno.args[1];
+const CLIENT_ID = Deno.args[0].trim();
+const CLIENT_SECRET = Deno.args[1].trim();
 const REDIRECT_URI = "http://localhost:3000/callback";
 const SCOPES = "tweet.read tweet.write users.read offline.access";
 

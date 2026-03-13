@@ -19,6 +19,22 @@
                 "--allow-all"
             ],
             "attachSimplePort": 9229
+        },
+        {
+            // SEND X POST
+            "name": "Send X Post",
+            "request": "launch",
+            "type": "node",
+            "program": "${workspaceFolder}/tools/send-x-post.ts",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "runtimeExecutable": "C:\\Users\\kinso\\.deno\\bin\\deno.EXE",
+            "runtimeArgs": [
+                "run",
+                "--inspect-wait",
+                "--allow-all"
+            ],
+            "attachSimplePort": 9229
         }
     ]
 }
